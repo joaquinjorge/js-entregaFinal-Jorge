@@ -28,6 +28,7 @@ do {
    let remeras;
    let botines;
    let mostrarPreciodsc;
+   // FILTRADO DE PRODUCTOS---------------------------------------------------------------------------------
   let ordenarPrecio=""; 
  productos.sort((a, b) => {
   if (a.precio < b.precio ) {
@@ -58,13 +59,30 @@ productos.forEach(element => {
   ordenarNombre+=element.id+" "+element.nombre+"\n"
 });
 
- 
-   
+let filtrarPants=""
+let filtrarPantalones=productos.filter(producto=>producto.categoria==="pantalones")
+filtrarPantalones.forEach(producto => {
+   filtrarPants+="\n"+producto.id+" "+producto.nombre
+});
+
+let filtrarRems=""
+let filtrarRemeras=productos.filter(producto=>producto.categoria==="remeras")
+filtrarRemeras.forEach(producto => {
+   filtrarRems+="\n"+producto.id+" "+producto.nombre
+});
+
+let filtrarBotin=""
+let filtrarBotines=productos.filter(producto=>producto.categoria==="botines")
+filtrarBotines.forEach(producto => {
+   filtrarBotin+="\n"+producto.id+" "+producto.nombre
+});
+ // -----------------------------------------------------------------------------------
+    //Logica del Mercado---------------------------------------------------------------------------------
    
    if (tienda == 1) {
       while (pantalones != 0) {
          pantalones = prompt(
-            "\n escriba el numero de la izquierda para comprar ese producto: \n1 - pantalon de Independiente $4500\n2 - pantalon de River Plate $5500\n3 - pantalon de Boca Juniors $6000\n0 - para salir del catalogo"
+            " escriba el numero de la izquierda para comprar ese producto:"+"\n"+filtrarPants
          );
          pantalon(pantalones,productos,1,2,3);
       }
@@ -72,7 +90,7 @@ productos.forEach(element => {
    if (tienda == 2) {
       while (remeras != 0) {
          remeras = prompt(
-            "\n escriba el numero de la izquierda para comprar ese producto: \n4 - Camiseta de independiente $12000\n5 - Camiseta de River Plate $10000\n6 - Camiseta de Boca Juniors $13000\n0 - para salir del catalogo"
+            " escriba el numero de la izquierda para comprar ese producto:"+"\n"+filtrarRems
          );
          remera(remeras, productos,4,5,6);
       }
@@ -80,7 +98,7 @@ productos.forEach(element => {
    if (tienda == 3) {
       while (botines != 0) {
          botines = prompt(
-            "\n escriba el numero de la izquierda para comprar ese producto: \n7 - Botines adidas X Speedportal.3 Fg $35000\n8 - Botines adidas Predator Edge.4 Tf $26000\n9 - Botines adidas X Ghosted.3 TF $17000\n0 - para salir del catalogo"
+            " escriba el numero de la izquierda para comprar ese producto:"+"\n"+filtrarBotin
          );
          botin(botines,productos,7,8,9);
       }
@@ -106,7 +124,7 @@ productos.forEach(element => {
    }
    tiendas();
 } while (tienda != 0);
-
+ //------------------------------------------------------------------------------------------------
 
 // FUNCIONES---------------------------------------------------------------
 
