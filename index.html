@@ -9,15 +9,117 @@
 
 
 
-
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <link rel="stylesheet" href="css/css.css">
     <script src="https://kit.fontawesome.com/6de1b53163.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
+    <header>
+        <div class="header">
+            <div class="logo">
+                <a class="inicio" href="index.html">
+                    <img src="images/store.png" alt="logo">
+                    <h1>TiendaMania</h1>
+                </a>
 
+
+            </div>
+            <nav class="nav">
+                <button id="buttonCarro" class="enlaces">
+                    <a href="#carroContenedor"><i class="fa-brands fa-shopify"></i>
+                        <li>
+                            <p>Carrito</p>
+                        </li>
+                    </a>
+                </button>
+                <div id="contadorCarrito"></div>
+
+
+
+
+            </nav>
+
+
+        </div>
+
+
+
+
+
+
+    </header>
+    <div class="buscar">
+        <form class="busqueda">
+            <label for="">Buscar:</label>
+            <input id="inputBuscar" type="search">
+        </form>
+        <div>
+            <label class="filtrado" for="shop">Categoria:</label>
+
+            <select id="shop">
+                <option value="selected" selected>...</option>
+                <option value="remera">Remeras</option>
+                <option value="campera">Camperas</option>
+                <option value="botines">Botines</option>
+                <option value="short">Shorts</option>
+            </select>
+        </div>
+    </div>
+    <div class="hero">
+        <h2 class="titulo">Nuestros Productos</h2>
+    </div>
+    <div id="contenedorTarjetas" class="contenedor">
+
+    </div>
+   
+    <div id="carroContenedor" class="ocultar"></div>
+    <footer class="footerIndex">
+
+        <div class="footerH2">
+          <lord-icon src="https://cdn.lordicon.com/reybmpdc.json" trigger="loop" delay="2000"
+            colors="primary:#c71f16,secondary:#eee966,tertiary:#ebe6ef,quaternary:#4bb3fd,quinary:#3a3347"
+            style="width:5rem;height:3rem">
+          </lord-icon>
+    
+          <h4 class="tituloFooter">Contacta Conmigo</h4>
+    
+    
+    
+    
+        </div>
+    
+        <div class="iconos">
+    
+          <a class="twitter" href="#"> <i class="fa-brands fa-twitter"></i></a>
+    
+          <a class="facebook" href="#"> <i class="fa-brands fa-facebook"></i></a>
+    
+          <a class="youtube" href="#"> <i class="fa-brands fa-youtube"></i></a>
+    
+        </div>
+    
+        <div class="derechos ">
+    
+          <p class="textoFooter"> © 2023 E-commerce TiendaMania/Todos los derechos reservados</p>
+    
+        </div>
+    
+    
+    
+    
+    
+    
+    
+      </footer>
+    
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
     <script src="js.js"></script>
+
 </body>
 
 
