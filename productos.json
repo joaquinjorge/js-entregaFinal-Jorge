@@ -1,0 +1,162 @@
+[
+    {
+      "id":1,
+      "nombre":"Campera adidas Boca Juniors Anthem De Hombre",
+      "precio":11200,
+      "categoria":"campera",
+      "stock":15,
+      "imgUrl":"https://sporting.vtexassets.com/arquivos/ids/209996/6GL7526-000-1.jpg?v=637351851600800000"
+    },
+    {
+      "id":2,
+      "nombre":"Campera Reebok Training Supply de Hombre",
+      "precio":14800,
+      "categoria":"campera",
+      "stock":8,
+      "imgUrl":"https://static.dafiti.com.ar/p/reebok-2487-465566-1-product.jpg"
+    },
+    {
+      "id":3,
+      "nombre":"Botines adidas Copa Sense .1 FG De Hombre",
+      "precio":62000,
+      "categoria":"botines",
+      "stock":11,
+      "imgUrl":"https://media.solodeportes.com.ar/media/catalog/product/cache/7c4f9b393f0b8cb75f2b74fe5e9e52aa/b/o/botines-de-futbol-adidas-copa-sense-1-fg-amarillo-100010gw3604001-1.jpg"
+    },
+    {
+      "id":4,
+      "nombre":"Remera Nike Academy De Hombre",
+      "precio":8900,
+      "categoria":"remera",
+      "stock":18,
+      "imgUrl":"https://http2.mlstatic.com/D_NQ_NP_789831-MLA46200362504_052021-W.jpg"
+    },
+    {
+      "id":5,
+      "nombre":"Campera adidas Marathon De Hombre",
+      "precio":20000,
+      "categoria":"campera",
+      "stock":6,
+      "imgUrl":"https://assets.adidas.com/images/w_600,f_auto,q_auto/ceb9bacd074349e7b950ac8001129160_9366/Campera_Marathon_3_Tiras_Blanco_GK6111_01_laydown.jpg"
+    },
+    {
+      "id":6,
+      "nombre":"Short Nike Challenger De Hombre",
+      "precio":11300,
+      "categoria":"short",
+      "stock":4,
+      "imgUrl":"https://www.stockcenter.com.ar/on/demandware.static/-/Sites-dabra-catalog/default/dw16e5ff91/products/NI_AJ7685-010/NI_AJ7685-010-1.JPG"
+    },
+    {
+      "id":7,
+      "nombre":"Campera adidas Rompevientos TRVL Tiger De Hombre",
+      "precio":26000,
+      "categoria":"campera",
+      "stock":14,
+      "imgUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5HVwS0kITPGmt4xHZvet4oEW3a9xNHEkToJNp9MLfbjwqWX8cEixcbNTSHx7aTZlUafA&usqp=CAU"
+    },
+    {
+      "id":8,
+      "nombre":"Short Babolat Viper De Hombre",
+      "precio":9200,
+      "categoria":"short",
+      "stock":7,
+      "imgUrl":"https://http2.mlstatic.com/D_NQ_NP_865823-MLA53141581720_012023-O.webp"
+    },
+    {
+      "id":9,
+      "nombre":"Short adidas Alternativo Selección Argentina",
+      "precio":9000,
+      "categoria":"short",
+      "stock":8,
+      "imgUrl":"https://media.solofutbol.com/media/catalog/product/cache/3cb7d75bc2a65211451e92c5381048e9/s/h/short-de-argentina-adidas-alternativo-ni_o-violeta-100020hf1487001-1.jpg"
+    },
+    {
+      "id":10,
+      "nombre":"Botines Puma Future Z 4.4 TT De Hombre",
+      "precio":24500,
+      "categoria":"botines",
+      "stock":22,
+      "imgUrl":"https://rossettiar.vtexassets.com/arquivos/ids/247877-800-auto?v=638065373703500000&width=800&height=auto&aspect=true"
+    },
+    {
+      "id":11,
+      "nombre":"Remera Topper Rvr De Hombre",
+      "precio":8000,
+      "categoria":"remera",
+      "stock":18,
+      "imgUrl":"https://www.moov.com.ar/on/demandware.static/-/Sites-dabra-catalog/default/dwefb5d370/products/TO_165563/TO_165563-1.JPG"
+    },
+    {
+      "id":12,
+      "nombre":"Botines adidas X Speedportal .1 FG De Hombre",
+      "precio":62000,
+      "categoria":"botines",
+      "stock":8,
+      "imgUrl":"https://sporting.vtexassets.com/arquivos/ids/606975/6GW8426-000-1.jpg?v=637964254810400000"
+    },
+    {
+      "id":13,
+      "nombre":"Remera Steel Custom Sublimada De Hombre",
+      "precio":7800,
+      "categoria":"remera",
+      "stock":13,
+      "imgUrl":"https://sporting.vtexassets.com/arquivos/ids/692312-800-800?v=638089448459800000&width=800&height=800&aspect=true"
+    },
+    {
+      "id":14,
+      "nombre":"Short Asics Limited Edition De Hombre",
+      "precio":11300,
+      "categoria":"short",
+      "stock":8,
+      "imgUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv92Bjjfh2aXckG5yvJKlhiko4xzEqS6bZnQViMDsDxx3co-OeFp25JcLF5zD53iej9po&usqp=CAU"
+    },
+    {
+      "id":15,
+      "nombre":"Botines Umbro Fútbol Sala Velocita 6 Club IC de Hombre",
+      "precio":19000,
+      "categoria":"botines",
+      "stock":8,
+      "imgUrl":"https://sporting.vtexassets.com/arquivos/ids/689362-800-800?v=638083727435600000&width=800&height=800&aspect=true"
+    },
+    {
+      "id":16,
+      "nombre":"Botines Topper San Ciro V TF de Hombre",
+      "precio":13000,
+      "categoria":"botines",
+      "stock":4,
+      "imgUrl":"https://sporting.vtexassets.com/arquivos/ids/369832-800-800?v=637677355041970000&width=800&height=800&aspect=true"
+    },
+    {
+      "id":17,
+      "nombre":"Short De Baño Salomon Chase Classic De Hombre",
+      "precio":10000,
+      "categoria":"short",
+      "stock":8,
+      "imgUrl":"https://sporting.vtexassets.com/arquivos/ids/685130-800-800?v=638079259356170000&width=800&height=800&aspect=true"
+    },
+    {
+      "id":18,
+      "nombre":"Short adidas Tech De Hombre",
+      "precio":18000,
+      "categoria":"short",
+      "stock":6,
+      "imgUrl":"https://sporting.vtexassets.com/arquivos/ids/685205-800-800?v=638079340086470000&width=800&height=800&aspect=true"
+    },
+    {
+      "id":19,
+      "nombre":"Remera Puma Independiente Iconic De Hombre",
+      "precio":9500,
+      "categoria":"remera",
+      "stock":8,
+      "imgUrl":"https://celadasa.vtexassets.com/arquivos/ids/220977-800-auto?v=638067169480130000&width=800&height=auto&aspect=true"
+    },
+    {
+      "id":20,
+      "nombre":"Campera NIKE AIR",
+      "precio":35000,
+      "categoria":"campera",
+      "stock":11,
+      "imgUrl":"https://http2.mlstatic.com/D_NQ_NP_765898-MLU49421226675_032022-W.jpg"
+    }
+  ]
